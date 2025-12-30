@@ -26,22 +26,17 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var index_exports = {};
-__export(index_exports, {
-  Activity: () => import_Activity.default,
-  AddressBook: () => import_AddressBook.default,
-  AirConditioner: () => import_AirConditioner.default,
-  Airbnb: () => import_Airbnb.default
+var AirConditioner_exports = {};
+__export(AirConditioner_exports, {
+  default: () => AirConditioner_default
 });
-module.exports = __toCommonJS(index_exports);
-var import_Activity = __toESM(require("./icons/Activity"));
-var import_AddressBook = __toESM(require("./icons/AddressBook"));
-var import_AirConditioner = __toESM(require("./icons/AirConditioner"));
-var import_Airbnb = __toESM(require("./icons/Airbnb"));
-// Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {
-  Activity,
-  AddressBook,
-  AirConditioner,
-  Airbnb
-});
+module.exports = __toCommonJS(AirConditioner_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = require("react");
+var import_IconBase = __toESM(require("../../IconBase"));
+var import_regular = __toESM(require("./regular"));
+var import_filled = __toESM(require("./filled"));
+const weights = { regular: import_regular.default, filled: import_filled.default };
+const AirConditionerIcon = (0, import_react.forwardRef)((props, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_IconBase.default, { ref, ...props, weights }));
+AirConditionerIcon.displayName = "AirConditioner";
+var AirConditioner_default = AirConditionerIcon;

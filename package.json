@@ -1,5 +1,5 @@
 {
-  "name": "my-icons",
+  "name": "griddy-icons",
   "version": "0.1.0",
   "description": "A minimal React icon library inspired by phosphor-react, with multiple weights and a simple build.",
   "license": "MIT",
@@ -19,14 +19,14 @@
     "phosphor-react",
     "library"
   ],
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     }
   },
   "files": [
@@ -46,7 +46,7 @@
   },
   "scripts": {
     "generate": "tsx scripts/generate.ts",
-    "build": "tsup",
+    "build": "npm run generate && tsup",
     "clean": "rm -rf dist src/icons src/index.ts && mkdir -p src/icons",
     "prepublishOnly": "npm run build"
   },
