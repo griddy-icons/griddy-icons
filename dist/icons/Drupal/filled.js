@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var filled_exports = {};
+__export(filled_exports, {
+  default: () => filled_default
+});
+module.exports = __toCommonJS(filled_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var filled_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M16.57 4.905c-1.07-.67-2.085-.93-3.095-1.6C12.85 2.88 11.98 1.87 11.25 1c-.14 1.395-.565 1.965-1.05 2.365-1.03.81-1.68 1.05-2.57 1.54-.75.385-4.815 2.81-4.815 8.03 0 5.22 4.39 9.065 9.265 9.065 4.875 0 9.105-3.54 9.105-8.9S17.22 5.31 16.57 4.905Zm.115 15.19c-.1.1-1.03.75-2.125.85-1.095.1-2.57.16-3.46-.645-.14-.14-.1-.345 0-.425.1-.08.18-.14.305-.14s.1 0 .16.04c.405.325 1.01.585 2.305.585 1.295 0 2.205-.365 2.61-.67.18-.14.265-.02.285.06.02.08.06.205-.08.345Zm-3.54-1.84c.22-.2.585-.525.93-.67.345-.14.525-.12.85-.12.325 0 .67.02.91.18.245.16.385.525.465.73.08.205 0 .325-.16.405-.14.08-.16.04-.305-.22-.14-.265-.265-.525-.97-.525s-.93.245-1.275.525c-.345.285-.465.385-.585.22-.12-.16-.08-.325.14-.525Zm5.36.16c-.73-.06-2.185-2.325-3.115-2.365-1.175-.04-3.725 2.45-5.725 2.45-1.215 0-1.58-.18-1.985-.445-.605-.425-.91-1.07-.89-1.96.02-1.58 1.495-3.055 3.36-3.075 2.365-.02 4.005 2.345 5.2 2.325 1.01-.02 2.955-2.005 3.905-2.005 1.01 0 1.295 1.05 1.295 1.68 0 .63-.2 1.76-.69 2.47-.485.71-.79.97-1.355.93v-.005Z", fill: "currentColor" }) });

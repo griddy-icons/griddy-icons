@@ -1,0 +1,29 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "m8.585 8.58 2 1-.67 1.34-2-1 .67-1.34Zm5.5 2.34 2-1-.67-1.34-2 1 .67 1.34Z", fill: "currentColor" }),
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M6.471 6.148A2.75 2.75 0 0 1 8.94 5.135l3.06.36 3.06-.36a2.75 2.75 0 0 1 2.469 1.013L19 7.987v4.99l-1.532 2.298a2.75 2.75 0 0 1-1.978 1.207A2.75 2.75 0 0 1 12.75 19h-1.5a2.75 2.75 0 0 1-2.74-2.518 2.75 2.75 0 0 1-1.978-1.207L5 12.977v-4.99l1.471-1.839ZM12 15.652a2.75 2.75 0 0 0 1.975.848c-.116.57-.62 1-1.225 1h-1.5a1.25 1.25 0 0 1-1.225-1A2.75 2.75 0 0 0 12 15.652ZM8.765 6.625a1.25 1.25 0 0 0-1.123.46L6.5 8.513v4.01l1.28 1.92A1.25 1.25 0 0 0 8.82 15h1.194a1.25 1.25 0 0 0 1.118-.691l.118-.236V13.5h-.75V12h3v1.5h-.75v.573l.118.236a1.25 1.25 0 0 0 1.118.691h1.194a1.25 1.25 0 0 0 1.04-.557l1.28-1.92v-4.01l-1.142-1.428a1.25 1.25 0 0 0-1.123-.46L12 7.005l-3.235-.38Z", fill: "currentColor" }),
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M7.037 1.696a2.75 2.75 0 0 0-2.605 1.027l-3.02 3.883.566 1.699-1.049 5.767 2.111 1.583.518 4.66 8.45 2.726 7.883-2.719 1.031-4.638 2.149-1.612-1.049-5.767.567-1.699-3.02-3.883a2.75 2.75 0 0 0-2.606-1.027L12 2.49l-4.963-.794ZM5.616 3.644A1.25 1.25 0 0 1 6.8 3.178l5.2.832 5.2-.832a1.25 1.25 0 0 1 1.184.466l2.528 3.25-.434 1.301.951 5.233-1.85 1.388-.97 4.362-6.617 2.281-7.05-2.274-.482-4.34-1.89-1.417.952-5.233-.434-1.301 2.528-3.25Z", fill: "currentColor" })
+] });

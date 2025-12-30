@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M17.5947 3.125L18.8997 2.38L18.9047 2.375L21.0047 6.05V16.495C21.0047 17.875 19.8797 18.995 18.5047 18.995C17.8347 18.995 17.2047 18.735 16.7347 18.26C16.2597 17.785 16.0047 17.16 16.0047 16.49L16.0147 11.25C16.0147 10.915 15.8847 10.6 15.6497 10.365C15.4147 10.13 15.0997 10 14.7647 10H14.4997V19.5H15.4997V21H2.05469V19.5H2.99969V4.25C2.99969 3.56 3.55969 3 4.24969 3H13.2447C13.9347 3 14.4947 3.56 14.4947 4.25V8.5H14.7597C15.4947 8.5 16.1847 8.79 16.7047 9.31C17.2247 9.83 17.5097 10.525 17.5097 11.26L17.4997 16.5C17.4997 16.77 17.5997 17.02 17.7897 17.21C17.9747 17.4 18.2297 17.505 18.4947 17.505C19.0497 17.505 19.4947 17.055 19.4947 16.505V9.005H18.4947V6.005H19.2397L17.5947 3.125ZM4.49969 4.5V19.5H12.9997V4.5H4.49969ZM6.5 6.5H11V8H6.5V6.5Z", fill: "currentColor" }) });

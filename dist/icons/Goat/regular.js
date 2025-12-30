@@ -1,0 +1,28 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M8.5 13.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z", fill: "currentColor" }),
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M6 2.5h1.25c.69 0 1.25.56 1.25 1.25v.809A4.752 4.752 0 0 0 4.506 9H1v1.25A2.75 2.75 0 0 0 3.75 13h.767a4.75 4.75 0 0 0 1.374 2.952l1.11 1.109a5 5 0 0 0 9.999 0l1.109-1.11A4.75 4.75 0 0 0 19.483 13h.767A2.75 2.75 0 0 0 23 10.25V9h-3.506A4.752 4.752 0 0 0 15.5 4.559V3.75c0-.69.56-1.25 1.25-1.25H18V1h-1.25A2.75 2.75 0 0 0 14 3.75v.75h-4v-.75A2.75 2.75 0 0 0 7.25 1H6v1.5Zm-1.5 9v-1H2.525c.116.57.62 1 1.225 1h.75Zm15.75 0h-.75v-1h1.975c-.116.57-.62 1-1.225 1ZM9.97 17.53l1.06-1.06.97.97.97-.97 1.06 1.06-1.28 1.28v1.61A3.501 3.501 0 0 0 15.5 17v-.56l1.548-1.549A3.25 3.25 0 0 0 18 12.593V9.25A3.25 3.25 0 0 0 14.75 6h-5.5A3.25 3.25 0 0 0 6 9.25v3.343c0 .862.342 1.689.952 2.298L8.5 16.44V17a3.501 3.501 0 0 0 2.75 3.42v-1.61l-1.28-1.28Z", fill: "currentColor" })
+] });

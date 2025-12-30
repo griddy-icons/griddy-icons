@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M16 4.345a1.25 1.25 0 0 0-1.498-.913l-1.872.44a2.75 2.75 0 0 1-1.26 0l-1.872-.44A1.25 1.25 0 0 0 8 4.345l-1.521 6.087-1.456-.364.16-.636a6 6 0 0 0-1.101.498c-.552.334-.581.55-.581.57 0 .014.013.18.408.457.375.264.966.532 1.764.77 1.587.47 3.824.773 6.328.773 2.504 0 4.74-.302 6.328-.774.798-.237 1.389-.505 1.764-.769.395-.277.408-.443.408-.457 0-.02-.03-.236-.581-.57a5.996 5.996 0 0 0-1.1-.498l.159.636-1.456.364-1.521-6.087Zm-9.456-.363-.938 3.751c-.91.245-1.7.55-2.302.914C2.648 9.044 2 9.65 2 10.5c0 .746.505 1.304 1.045 1.684.561.395 1.325.72 2.2.98C7.005 13.687 9.394 14 12 14s4.994-.313 6.755-.836c.875-.26 1.639-.585 2.2-.98.54-.38 1.045-.938 1.045-1.684 0-.85-.648-1.456-1.304-1.853-.601-.364-1.392-.67-2.302-.914l-.938-3.751a2.75 2.75 0 0 0-3.298-2.01l-1.872.44a1.25 1.25 0 0 1-.572 0l-1.872-.44a2.75 2.75 0 0 0-3.298 2.01ZM5.5 18.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm2-3.5a3.5 3.5 0 1 0 3.42 4.25h2.16A3.501 3.501 0 0 0 20 18.5a3.5 3.5 0 0 0-6.92-.75h-2.16A3.501 3.501 0 0 0 7.5 15Zm9 1.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z", fill: "currentColor" }) });

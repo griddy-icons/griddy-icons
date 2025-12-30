@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M2.5 7.5C2.5 4.46 4.96 2 8 2c.745 0 1.416.307 1.955.553l.165.076c.61.274 1.174.496 1.88.496s1.27-.222 1.88-.496l.165-.076C14.585 2.307 15.255 2 16 2c3.04 0 5.5 2.46 5.5 5.5 0 2.2-.631 3.616-1.233 4.965l-.082.183C19.577 14.018 19 15.405 19 17.75v1.643a2.607 2.607 0 0 1-5.11.73l-1.001-3.433a.959.959 0 0 0-1.827-.044l-1.275 3.696A2.46 2.46 0 0 1 5 19.539V17.75c0-2.345-.577-3.732-1.185-5.102-.028-.06-.055-.122-.082-.183C3.13 11.116 2.5 9.7 2.5 7.5Zm5.5-4c-2.21 0-4 1.79-4 4 0 1.877.519 3.043 1.116 4.383l.07.156c.64 1.443 1.314 3.056 1.314 5.711v1.79a.96.96 0 0 0 1.869.313l1.275-3.696a2.459 2.459 0 0 1 4.685.113l1.001 3.433a1.107 1.107 0 0 0 2.17-.31V17.75c0-2.655.673-4.268 1.315-5.71l.069-.156C19.48 10.543 20 9.377 20 7.5c0-2.21-1.79-4-4-4-.404 0-.777.168-1.397.448l-.108.048c-.64.289-1.451.629-2.495.629s-1.854-.34-2.495-.629l-.108-.048C8.777 3.668 8.404 3.5 8 3.5Z", fill: "currentColor" }) });

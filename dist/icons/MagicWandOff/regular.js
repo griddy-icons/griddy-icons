@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "m19.385 18.325 2.395 2.395-1.06 1.06-18.5-18.5 1.06-1.06 2.045 2.045C5.91 3.66 6.25 2.855 6.25 2h1.5c0 1.79 1.46 3.25 3.25 3.25v1.5c-.855 0-1.665.34-2.265.925L10.75 9.69l6.72-6.72c.98-.98 2.58-.98 3.56 0 .475.475.735 1.11.735 1.78 0 .67-.26 1.305-.735 1.78l-6.72 6.72 2.365 2.365A1.756 1.756 0 0 0 17.75 14h1.5c0 .965.785 1.75 1.75 1.75v1.5c-.725 0-1.35.445-1.615 1.075ZM8.45 6A4.775 4.775 0 0 1 7 4.55c-.175.275-.38.535-.615.77L7.68 6.615c.235-.23.49-.44.77-.615Zm10.8-2.265c-.26 0-.52.095-.72.295l-1.695 1.695 1.44 1.44L19.97 5.47c.195-.195.3-.45.3-.72a.99.99 0 0 0-.3-.72c-.2-.195-.46-.295-.72-.295Zm-3.475 3.05L11.81 10.75l1.44 1.44 3.965-3.965-1.44-1.44ZM4.03 19.97a1.023 1.023 0 0 0 1.44 0l5.66-5.66 1.06 1.06-5.66 5.66a2.51 2.51 0 0 1-1.78.735c-.645 0-1.305-.26-1.78-.735a2.504 2.504 0 0 1-.735-1.78c0-.67.26-1.305.735-1.78l5.66-5.66 1.06 1.06-5.66 5.66a1.01 1.01 0 0 0 0 1.44Z", fill: "currentColor" }) });

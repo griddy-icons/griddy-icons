@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M5.354 4.855A9.69 9.69 0 0 1 12.25 2C17.625 2 22 6.375 22 11.75c0 1.455-.12 2.91-.35 4.335l-1.48-.24c.22-1.345.33-2.72.33-4.095 0-4.55-3.7-8.25-8.25-8.25a8.191 8.191 0 0 0-5.835 2.415l-1.06-1.06ZM12.25 5C8.53 5 5.5 8.03 5.5 11.75c0 2.09-.625 4.1-1.81 5.815l1.235.855A11.696 11.696 0 0 0 7 11.75a5.256 5.256 0 0 1 5.25-5.25 5.256 5.256 0 0 1 5.25 5.25H19C19 8.03 15.97 5 12.25 5Zm0 3C10.18 8 8.5 9.68 8.5 11.75c0 1.375-.21 2.73-.62 4.02l1.43.455c.46-1.44.69-2.95.69-4.48 0-1.24 1.01-2.25 2.25-2.25s2.25 1.01 2.25 2.25c0 3.375-.884 6.7-2.564 9.605l1.3.75A20.73 20.73 0 0 0 16 11.745c0-2.07-1.68-3.75-3.75-3.75V8Zm-7.144-.375-1.3-.75A9.74 9.74 0 0 0 2.5 11.75c0 .87-.15 1.72-.455 2.53l1.405.52c.36-.975.545-2 .545-3.05 0-1.45.38-2.875 1.105-4.125h.005Zm.81 11.99a13.384 13.384 0 0 0 1.42-2.425l1.365.615c-.425.95-.96 1.86-1.58 2.7l-1.205-.89ZM11.5 11.75c0 3.3-.985 6.48-2.845 9.19l1.235.85A17.65 17.65 0 0 0 13 11.75h-1.5Zm5.646 9.22-1.38-.585a22.17 22.17 0 0 0 1.685-7.09l1.495.105a23.603 23.603 0 0 1-1.8 7.57Z", fill: "currentColor" }) });

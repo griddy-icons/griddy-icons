@@ -1,0 +1,6 @@
+import React from "react";
+export default (
+  <>
+    <path d="M12 2C6.485 2 2 6.485 2 12s4.485 10 10 10 10-4.485 10-10S17.515 2 12 2Zm.75 14.5h-1.5v-6h1.5v6ZM12 9c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Z" fill="currentColor"/>
+  </>
+);

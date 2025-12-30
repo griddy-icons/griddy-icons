@@ -1,0 +1,28 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M8.5 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z", fill: "currentColor" }),
+  /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M11.75 1a2.75 2.75 0 0 0-2.733 2.446 2.523 2.523 0 0 0-3.542.024 2.524 2.524 0 0 0 0 3.565l.594.595A7.971 7.971 0 0 0 4 13v6.25A2.75 2.75 0 0 0 6.75 22h1.878c.505.61 1.268 1 2.122 1h2.5c.854 0 1.617-.39 2.122-1h1.878A2.75 2.75 0 0 0 20 19.25V13a7.974 7.974 0 0 0-2.313-5.627l.338-.338a2.524 2.524 0 0 0 0-3.565 2.523 2.523 0 0 0-3.542-.024A2.75 2.75 0 0 0 11.75 1Zm0 1.5c-.69 0-1.25.56-1.25 1.25v1.39a8.048 8.048 0 0 1 2.5-.078V3.75c0-.69-.56-1.25-1.25-1.25ZM9 5.581v-.039L7.978 4.528a1.023 1.023 0 0 0-1.443.002 1.024 1.024 0 0 0 0 1.445l.642.641A7.987 7.987 0 0 1 9 5.581Zm5.609-.146a7.971 7.971 0 0 1 1.924.972l.432-.432a1.024 1.024 0 0 0 0-1.445 1.023 1.023 0 0 0-1.443-.002l-.913.907ZM5.5 13a6.5 6.5 0 1 1 13 0v6.25c0 .69-.56 1.25-1.25 1.25h-1.261c.007-.082.011-.166.011-.25v-.67c0-.728-.288-1.429-.805-1.945l-1.022-1.023.849-1.152-2.142-2.135a1.248 1.248 0 0 0-1.765 0l-2.102 2.102.85 1.15-1.058 1.058A2.752 2.752 0 0 0 8 19.58v.67c0 .084.004.168.011.25H6.75c-.69 0-1.25-.56-1.25-1.25V13Zm6.536 6.513 1.237-1.68.862.862c.233.234.365.553.365.885v.67c0 .69-.56 1.25-1.25 1.25h-2.5c-.69 0-1.25-.56-1.25-1.25v-.67c0-.332.132-.651.365-.885l.9-.9 1.271 1.718Zm-1.049-3.94 1.01-1.01 1.051 1.047-1.014 1.377-1.047-1.414Z", fill: "currentColor" })
+] });

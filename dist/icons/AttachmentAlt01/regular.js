@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M12.005 22c-.11 0-.225 0-.335-.01C9.05 21.82 7 19.565 7 16.855v-9.71c0-2.71 2.05-4.965 4.67-5.135 1.4-.095 2.73.385 3.75 1.34A5.012 5.012 0 0 1 17 7v1h-1.5V7a3.48 3.48 0 0 0-1.105-2.555c-.715-.67-1.64-1-2.625-.94-1.83.12-3.265 1.715-3.265 3.64v9.71c0 1.92 1.435 3.52 3.265 3.64.98.065 1.915-.27 2.625-.94A3.46 3.46 0 0 0 15.5 17v-4.25c0-.965-.785-1.75-1.75-1.75S12 11.785 12 12.75v4.5h-1.5v-4.5c0-1.79 1.46-3.25 3.25-3.25S17 10.96 17 12.75V17a5.029 5.029 0 0 1-1.58 3.65A4.942 4.942 0 0 1 12.005 22Z", fill: "currentColor" }) });

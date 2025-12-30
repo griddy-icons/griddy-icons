@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var filled_exports = {};
+__export(filled_exports, {
+  default: () => filled_default
+});
+module.exports = __toCommonJS(filled_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var filled_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M21.75 8.5H19V6.39C19 4.695 17.785 3.245 16.175 3.025C15.72 2.965 15.27 3 14.83 3.135C13.97 2.395 12.895 1.995 11.75 1.995C10.97 1.995 10.21 2.185 9.525 2.55C8.79 2.185 7.965 1.995 7.125 1.995C4.3 1.995 2 4.125 2 6.745V9.745C2 10.9 2.88 11.845 4 11.97V19.245C4 20.76 5.235 21.995 6.75 21.995H16.25C17.765 21.995 19 20.76 19 19.245V17.995H20.25C21.765 17.995 23 16.76 23 15.245V9.745C23 9.055 22.44 8.495 21.75 8.495V8.5ZM10 17.5H8.5V10.5H10V17.5ZM14.5 17.5H13V10.5H14.5V17.5ZM6.25 6C5.56 6 5 6.56 5 7.25V9.75C5 10.165 4.665 10.5 4.25 10.5C3.835 10.5 3.5 10.165 3.5 9.75V6.75C3.5 4.96 5.125 3.5 7.125 3.5C7.85 3.5 8.55 3.695 9.15 4.06L9.555 4.305L9.95 4.04C10.485 3.685 11.105 3.5 11.745 3.5C12.645 3.5 13.485 3.865 14.11 4.525L14.49 4.925L14.985 4.68C15.305 4.525 15.635 4.465 15.965 4.51C16.715 4.61 17.305 5.22 17.455 5.995H6.25V6ZM21.5 15.25C21.5 15.94 20.94 16.5 20.25 16.5H19V10H21.5V15.25Z", fill: "currentColor" }) });

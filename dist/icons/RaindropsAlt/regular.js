@@ -1,0 +1,25 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var regular_exports = {};
+__export(regular_exports, {
+  default: () => regular_default
+});
+module.exports = __toCommonJS(regular_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var regular_default = /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M12.75 22c-2.48 0-4.5-2.02-4.5-4.5 0-.76.195-1.51.56-2.175l3.28-5.94A.745.745 0 0 1 12.745 9c.27 0 .525.15.655.385l3.28 5.94c.365.665.56 1.415.56 2.175 0 2.48-2.02 4.5-4.5 4.5h.01Zm0-10.7-2.625 4.75a3.012 3.012 0 0 0-.375 1.45c0 1.655 1.345 3 3 3s3-1.345 3-3c0-.505-.13-1.005-.375-1.45L12.75 11.3ZM5.5 12.5C3.57 12.5 2 10.93 2 9c0-.615.16-1.22.47-1.75l2.38-4.125a.754.754 0 0 1 .65-.375c.27 0 .515.145.65.375L8.53 7.25C8.84 7.78 9 8.385 9 9c0 1.93-1.57 3.5-3.5 3.5Zm0-7.5L3.765 8c-.175.305-.265.64-.265 1a2 2 0 1 0 4 0c0-.355-.09-.69-.27-.995l-1.73-3V5ZM19 11c-1.655 0-3-1.345-3-3 0-.46.11-.915.33-1.35l2-3.985A.744.744 0 0 1 19 2.25c.285 0 .545.16.67.415l2 3.985c.22.435.33.89.33 1.35 0 1.655-1.345 3-3 3Zm0-6.325-1.33 2.65c-.115.225-.17.45-.17.675 0 .825.675 1.5 1.5 1.5s1.5-.675 1.5-1.5c0-.225-.055-.45-.17-.67L19 4.675Z", fill: "currentColor" }) });
