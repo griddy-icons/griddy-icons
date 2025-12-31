@@ -1,8 +1,0 @@
-import { Fragment, jsx, jsxs } from "react/jsx-runtime";
-var filled_default = /* @__PURE__ */ jsxs(Fragment, { children: [
-  /* @__PURE__ */ jsx("g", { clipPath: "url(#tos__a)", children: /* @__PURE__ */ jsx("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M2 8.5h2.25v9h1.5v-9H8V7H2v1.5ZM12.25 7h-.5A2.755 2.755 0 0 0 9 9.75v5a2.755 2.755 0 0 0 2.75 2.75h.5A2.755 2.755 0 0 0 15 14.75v-5A2.755 2.755 0 0 0 12.25 7Zm1.25 7.75c0 .69-.56 1.25-1.25 1.25h-.5c-.69 0-1.25-.56-1.25-1.25v-5c0-.69.56-1.25 1.25-1.25h.5c.69 0 1.25.56 1.25 1.25v5Zm7.185-2.345c.255.155.475.355.665.575v.005A2.725 2.725 0 0 1 22 14.75a2.755 2.755 0 0 1-2.75 2.75h-.5A2.755 2.755 0 0 1 16 14.75h1.5c0 .69.56 1.25 1.25 1.25h.5c.69 0 1.25-.56 1.25-1.25 0-.435-.225-.835-.6-1.065l-2.59-1.59a2.728 2.728 0 0 1-1.315-2.345A2.755 2.755 0 0 1 18.745 7h.5a2.755 2.755 0 0 1 2.75 2.75h-1.5c0-.69-.56-1.25-1.25-1.25h-.5c-.69 0-1.25.56-1.25 1.25 0 .435.225.835.6 1.065l2.59 1.59Z", fill: "currentColor" }) }),
-  /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsx("clipPath", { id: "tos__a", children: /* @__PURE__ */ jsx("path", { fill: "currentColor", d: "M0 0h24v24H0z" }) }) })
-] });
-export {
-  filled_default as default
-};

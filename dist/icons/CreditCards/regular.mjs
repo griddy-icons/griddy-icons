@@ -1,5 +1,0 @@
-import { Fragment, jsx } from "react/jsx-runtime";
-var regular_default = /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsx("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M6.75 4h13.5c.965 0 1.75.785 1.75 1.75v9.5c0 .965-.785 1.75-1.75 1.75H6.75C5.785 17 5 16.215 5 15.25v-9.5C5 4.785 5.785 4 6.75 4Zm13.5 1.5H6.75c-.14 0-.25.11-.25.25v2.245h14V5.75c0-.14-.11-.25-.25-.25Zm-13.5 10h13.5c.14 0 .25-.11.25-.25V9.5h-14v5.75c0 .14.11.25.25.25ZM3.5 7v10.25c0 .69.56 1.25 1.25 1.25H19.5V20H4.75A2.755 2.755 0 0 1 2 17.25V7h1.5Z", fill: "currentColor" }) });
-export {
-  regular_default as default
-};

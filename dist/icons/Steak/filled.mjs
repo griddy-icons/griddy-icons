@@ -1,5 +1,0 @@
-import { Fragment, jsx } from "react/jsx-runtime";
-var filled_default = /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsx("path", { d: "M14.75 2C7.005 2 2 8.475 2 18.5 2 20.43 3.57 22 5.5 22s2.915-1.27 3.795-2.505C10.35 18.02 11.44 16.5 14.75 16.5c4 0 7.25-3.25 7.25-7.25S18.75 2 14.75 2Zm1 8.5c-1.24 0-2.25-1.01-2.25-2.25S14.51 6 15.75 6 18 7.01 18 8.25s-1.01 2.25-2.25 2.25Z", fill: "currentColor" }) });
-export {
-  filled_default as default
-};
