@@ -25,13 +25,13 @@
     "UX"
   ],
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
@@ -50,7 +50,7 @@
   },
   "scripts": {
     "generate": "tsx scripts/generate.ts",
-    "build": "npm run generate && tsup",
+    "build": "npm run generate && tsup && tsc --emitDeclarationOnly --outDir dist",
     "prepublishOnly": "npm run build"
   },
   "engines": {
