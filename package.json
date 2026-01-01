@@ -1,23 +1,28 @@
 {
   "name": "griddy-icons",
   "version": "0.1.0",
-  "description": "A minimal React icon library inspired by phosphor-react, with multiple weights and a simple build.",
+  "description": "Griddy Icons is a free, open-source icon library with a unique utilitarian vibe ready for your next project.",
+  "type": "module",
   "license": "MIT",
-  "author": "",
-  "repository": {
-    "type": "git",
-    "url": ""
+  "author": {
+    "name": "Zuzana Benova",
+    "email": "zuzanabenova.be@gmail.com",
+    "url": "https://www.zuzana.be"
   },
-  "homepage": "",
+  "repository": "griddy-icons",
+  "homepage": "https://www.griddyicons.com",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/griddy-icons/griddy-icons/issues"
   },
   "keywords": [
     "react",
     "icons",
     "svg",
-    "phosphor-react",
-    "library"
+    "griddy",
+    "design",
+    "interface",
+    "UI",
+    "UX"
   ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -37,20 +42,18 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "@types/react": "^18.3.12",
-    "react": "^18.3.1",
-    "tsup": "^8.3.0",
-    "tsx": "^4.19.2",
-    "typescript": "^5.6.3"
+    "@types/react": "^18",
+    "react": "^18",
+    "tsup": "^8",
+    "tsx": "^4",
+    "typescript": "^5"
   },
   "scripts": {
     "generate": "tsx scripts/generate.ts",
     "build": "npm run generate && tsup",
-    "clean": "rm -rf dist src/icons src/index.ts && mkdir -p src/icons",
     "prepublishOnly": "npm run build"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=16"
   }
 }
