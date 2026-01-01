@@ -1,7 +1,7 @@
 # Griddy Icons
 
 <!-- BEGIN_LOGO -->
-<img src="/.github/logo.png" width="128" align="right" />
+<img src="/.github/logo.png" width="96" align="right" />
 <!-- END_LOGO -->
 
 **Griddy Icons** is a free, open-source icon library with a unique utilitarian vibe ready for your next project.
