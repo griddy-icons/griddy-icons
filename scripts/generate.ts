@@ -83,9 +83,9 @@ export default (
 
     // Generate icon index.tsx
     const indexContent = `import React, { forwardRef } from "react";
-import IconBase from "../../IconBase";
-import type { IconProps } from "../../IconBase";
-${availableWeights.map((w) => `import ${w} from "./${w}";`).join("\n")}
+import IconBase from "../../IconBase.js";
+import type { IconProps } from "../../IconBase.js";
+${availableWeights.map((w) => `import ${w} from "./${w}.js";`).join("\n")}
 
 const weights = { ${availableWeights.join(", ")} } as const;
 
@@ -102,10 +102,13 @@ export default ${iconName}Icon;
 
   // Generate main index.ts
   const mainIndexContent = `${generatedIcons
-    .map((name) => `export { default as ${name} } from "./icons/${name}";`)
+    .map(
+      (name) =>
+        `export { default as ${name} } from "./icons/${name}/index.js";`,
+    )
     .join("\n")}
 
-export type { IconProps } from "./IconBase";
+export type { IconProps } from "./IconBase.js";
 `;
 
   fs.writeFileSync(INDEX_FILE, mainIndexContent);
