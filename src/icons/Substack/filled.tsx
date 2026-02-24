@@ -1,6 +1,6 @@
 import React from "react";
 export default (
   <>
-    <path fillRule="evenodd" clipRule="evenodd" d="M20.8 2H3.19v2.367H20.8V2Zm.01 4.509H3.202v2.367H20.81V6.51Zm-8.804 10.575L20.81 22V11.023H3.202V22l8.804-4.916Z" fill="currentColor"/>
+    <path d="M21 22.3223L12.0312 16.958L3.07031 22.3184L2.99609 9H21V22.3223ZM21 7H3V5.5H21V7ZM21 3.5H3V2H21V3.5Z" fill="currentColor"/>
   </>
 );
